@@ -15,7 +15,7 @@ var perso =
     // Renvoie la description du personnage
     decrire: function () 
         {
-        var description = this.nom + " possède les caractéristique S.P.E.C.I.A.L suivantes: " + this.strength + this.perception + this.endurance + this.charisma + this.intelligence + this.agility + this.luck;
+        var description = this.nom + " possède les caractéristique S.P.E.C.I.A.L suivantes: " + "\nForce : " + this.strength + "\nPerception : " + this.perception + "\nEndurance : " + this.endurance + "\nCharisme : " + this.charisma + "\nIntelligence : " + this.intelligence + "\nAgilité : " + this.agility + "\nChance : " + this.luck;
         return description;
         }
     };
@@ -27,6 +27,5 @@ perso.agility = perso.agility + 1;
 
 // LoneWanderder boit trop et diminue son intelligence 
 perso.intelligence = perso.intelligence - 2;
-
 
 console.log(perso.decrire());
