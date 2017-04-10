@@ -22,6 +22,9 @@ var perso =
 
 console.log(perso.decrire());
 
+//Petite histoire
+console.log("C'est un homme ou une femme qui rentre dans un bar. Cette personne joue aux fléchettes des dizaines de parties, puis boit de nombreuses bières.")
+
 // LoneWanderder augmente avec beaucoup d'entrainement sont agilité
 perso.agility = perso.agility + 1;
 
